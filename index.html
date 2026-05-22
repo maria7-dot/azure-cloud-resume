@@ -4,21 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maria Deligianni - Technical Support Specialist</title>
+    <!-- Importing Lato Light, Regular, and Bold from Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; background: #fff; }
-        .header { border-bottom: 2px solid #222; padding-bottom: 15px; margin-bottom: 25px; display: flex; justify-content: space-between; align-items: flex-start; }
-        .header-left h1 { margin: 0 0 5px 0; font-size: 2.2em; color: #111; letter-spacing: -0.5px; }
-        .header-left .title-sub { font-size: 1.2em; color: #555; margin: 0; }
-        .header-right { text-align: right; font-size: 0.9em; color: #444; line-height: 1.4; }
-        h2 { font-size: 1.2em; color: #111; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
-        .section-text { margin-bottom: 20px; text-align: justify; }
-        .job { margin-bottom: 25px; }
-        .job-header { display: flex; justify-content: space-between; font-weight: bold; color: #222; margin-bottom: 2px; }
-        .job-meta { font-style: italic; color: #666; font-size: 0.95em; margin-bottom: 8px; }
-        ul { margin-top: 5px; padding-left: 20px; }
-        li { margin-bottom: 6px; }
-        a { color: #005A9C; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body { 
+            font-family: 'Lato', sans-serif; 
+            line-height: 1.5; 
+            max-width: 820px; 
+            margin: 50px auto; 
+            padding: 0 30px; 
+            color: #111; 
+            background: #fff; 
+            -webkit-font-smoothing: antialiased;
+        }
+        .header { 
+            padding-bottom: 5px; 
+            margin-bottom: 20px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: flex-start; 
+        }
+        .header-left h1 { 
+            margin: 0 0 2px 0; 
+            font-size: 2.1em; 
+            font-weight: 400;
+            color: #000; 
+            letter-spacing: -0.5px; 
+        }
+        .header-left .title-sub { 
+            font-size: 1.15em; 
+            color: #222; 
+            margin: 0; 
+            font-weight: 400;
+        }
+        .header-right { 
+            text-align: right; 
+            font-size: 0.9em; 
+            color: #222; 
+            line-height: 1.4; 
+            font-weight: 400;
+        }
+        /* HEADING 2 style - Lato Light (300), size 14pt (approx 1.2em) */
+        h2 { 
+            font-size: 1.2em; 
+            color: #111; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px; 
+            margin-top: 25px; 
+            margin-bottom: 10px;
+            font-weight: 300; /* Sets it to Lato Light */
+        }
+        p {
+            font-size: 0.95em;
+            margin: 0 0 15px 0;
+            color: #111;
+            font-weight: 400; /* Sets body text to Lato Regular */
+            text-align: justify;
+        }
+        .job { 
+            margin-bottom: 18px; 
+        }
+        .job-title { 
+            font-weight: 400; /* Regular weight for job names */
+            color: #111; 
+            font-size: 0.95em;
+            margin-bottom: 1px; 
+        }
+        .job-meta { 
+            color: #555; 
+            font-size: 0.9em; 
+            margin-bottom: 5px; 
+            font-weight: 400;
+        }
+        ul { 
+            margin: 0 0 15px 0; 
+            padding-left: 18px; 
+        }
+        li { 
+            font-size: 0.95em;
+            margin-bottom: 5px; 
+            color: #111;
+            font-weight: 400; /* Sets list lines to Lato Regular */
+        }
+        a { 
+            color: #111; 
+            text-decoration: underline; 
+        }
+        a:hover { 
+            color: #444; 
+        }
+        .project-item {
+            margin-bottom: 15px;
+        }
+        .project-title {
+            font-size: 0.95em;
+            font-weight: 400;
+            color: #111;
+            margin-bottom: 2px;
+        }
     </style>
 </head>
 <body>
@@ -36,18 +121,15 @@
     </div>
 
     <h2>Summary</h2>
-    <p class="section-text">
+    <p>
         Technical Support Specialist with experience in troubleshooting, escalation handling, remote operational systems, and enterprise support environments. Experienced working with Jira, Confluence, and Microsoft Dynamics in high-pressure operational settings requiring strong problem-solving and cross-functional coordination. Interested in cloud infrastructure, technical operations, and support engineering roles.
     </p>
 
     <h2>Professional Experience</h2>
     
     <div class="job">
-        <div class="job-header">
-            <span>Customer Support Specialist / Level 2 Support – EVA Global</span>
-            <span>2021 - 2023</span>
-        </div>
-        <div class="job-meta">Malaga, Spain</div>
+        <div class="job-title">Customer Support Specialist / Level 2 Support – EVA Global</div>
+        <div class="job-meta">Malaga, Spain | 2021 - 2023</div>
         <ul>
             <li>Supported EV charging infrastructure operations and customer troubleshooting across UK and Greek support teams.</li>
             <li>Handled escalations, remote diagnostics, and operational issue resolution for enterprise EV charging systems.</li>
@@ -57,11 +139,8 @@
     </div>
 
     <div class="job">
-        <div class="job-header">
-            <span>UX/UI Designer</span>
-            <span>2020 - 2022</span>
-        </div>
-        <div class="job-meta">Remote</div>
+        <div class="job-title">UX/UI Designer</div>
+        <div class="job-meta">Remote | 2020 - 2022</div>
         <ul>
             <li>Completed intensive UX/UI training alongside contract work for a digital marketing agency, translating business requirements into structured web and interface layouts.</li>
             <li>Developed information architecture, user flows, and sitemap structures for web and application case study projects.</li>
@@ -72,11 +151,8 @@
     </div>
 
     <div class="job">
-        <div class="job-header">
-            <span>Head Chef / Operations Management</span>
-            <span>2015 - 2020, 2023 - 2026</span>
-        </div>
-        <div class="job-meta">International Restaurant Groups — London, Dublin & Los Angeles</div>
+        <div class="job-title">Head Chef / Operations Management</div>
+        <div class="job-meta">International Restaurant Groups — London, Dublin & Los Angeles | 2015–2020, 2023–2026</div>
         <ul>
             <li>Managed high-pressure kitchen operations, acting as a key escalation point for operational issues and time-sensitive service coordination.</li>
             <li>Oversaw inventory management, supplier coordination, and resource allocation to maintain operational efficiency and reduce waste.</li>
@@ -88,26 +164,20 @@
     <h2>Technical Skills</h2>
     <ul>
         <li><strong>Systems & Software:</strong> Microsoft Dynamics, Microsoft 365, Zendesk, Jira & Confluence, Figma, WordPress & Bricks Builder.</li>
-        <li><strong>Cloud & Infrastructure:</strong> Microsoft Azure (AZ-900 Certified), Cloud Infrastructure Fundamentals.</li>
+        <li><strong>Cloud & Infrastructure:</strong> Microsoft Azure (AZ-900 in progress), Cloud Infrastructure Fundamentals.</li>
         <li><strong>IT Operations & Support:</strong> Technical Troubleshooting, Ticketing & Documentation Systems, Incident Lifecycle Management, System Troubleshooting & Fault Analysis.</li>
     </ul>
 
     <h2>Personal Projects</h2>
-    <div class="job">
-        <div class="job-header">
-            <span>Azure Cloud Resume Project - GitHub + Azure Static Web Apps</span>
-            <span>2026</span>
-        </div>
+    <div class="project-item">
+        <div class="project-title">Azure Cloud Resume Project - GitHub + Azure Static Web Apps | 2026</div>
         <ul>
             <li>Built and deployed a cloud-hosted resume website using GitHub and Azure Static Web Apps.</li>
             <li><a href="https://azurestaticapps.net" target="_blank">Live Site ↗</a> | <a href="https://github.com" target="_blank">GitHub Repository ↗</a></li>
         </ul>
     </div>
-    <div class="job">
-        <div class="job-header">
-            <span>Artist Portfolio Website</span>
-            <span>2026</span>
-        </div>
+    <div class="project-item">
+        <div class="project-title">Artist Portfolio Website</div>
         <ul>
             <li>Designed and built a personal portfolio website using WordPress and Bricks Builder.</li>
             <li><a href="https://mariadeligianni.com" target="_blank">Artist Portfolio Website ↗</a></li>
@@ -117,7 +187,7 @@
     <h2>Certifications</h2>
     <ul>
         <li>Microsoft Azure Fundamentals (AZ-900) | 2026</li>
-        <li>UX Design Certification with UI Specialization, CareerFoundry | 2020 - 2021</li>
+        <li>UX Design Certification with UI Specialization, CareerFoundry | 2020–2021</li>
     </ul>
 
 </body>
